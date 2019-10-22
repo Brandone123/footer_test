@@ -20,20 +20,26 @@
    
    footer{
        font-family: 'Ubuntu', Sans-Serif;
-       background-color: grey;
+       background-color: #003152;
        font-style: normal;
-       padding-top: 5px;
+       padding-top: 88px;
        font-weight: bold;
+       color: white;
+   }
+   hr {
+    color: white;
+    text-decoration: none;
    }
    
    .socials{
     list-style: none;
     display: inline-flex;
+    padding-left: 700px;
    }
    
    .fa {
-    font-size: 25px;
-    margin: 10px;
+    font-size: 30px;
+    margin: 15px;
     color: white;
    }
    
@@ -42,6 +48,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 10px;
+    padding-left: 116px;
    }
    
    .title {
@@ -52,31 +59,67 @@
    .copy {
     color: white;
     font-size: 18px;
+    color: red;
    }
-   
+   .link {
+    list-style: none;
+    float: right;
+    padding-left: 750px;
+   }
+   .link a {
+    padding-top: 25px;
+   }
+   a {
+    color: white;
+    text-decoration: none;
+    float: right;
+   }
+   .foot1 {
+    display: inline-flex;
+   }
    @media (max-width: 700px) {
        .foot {
             flex-direction: column;
        }
-       .copy, .socials, .title {
-           text-align: center;
+       .socials, .copy, .title {
+        text-align: center;
        }
    }
+   
     </style>
 </head>
 <body>
     <footer>
-        <div class="foot">
-            <h1 class="title">DOCUFIX</h1>
-            <p class="copy">Copyright ©2019 Docufix.io and HNG6 affiliates</p>
+      <div class="foot">
+        <div class="foot1">
             <div>
+              <h1 class="title">DOCUFIX</h1>
+              <p>we help you arrange sort and <br>put your files and data in order<br>for easy management</p><br>
+              <p class="copy">proudly built by HNGi6 interns</p>
+            </div>
+          <div>
+            <ul class="link">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Feed back</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr> 
+      <div style="display: inline-flex;" class="foot">
+        <p>©2019 Copyright: Docufix</p>
+            <div class="link1">
                 <ul class="socials">
-                    <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.google.com"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin-square"></i></a></li>
                 </ul>
             </div>
-        </div> 
+          </div>
+         
     </footer>
 </body>
 </html>
