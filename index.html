@@ -100,11 +100,11 @@
    li {
         padding: 0 1rem;
       }
-    ul, footer .right  {
+    ul {
       margin-right: 2rem;
     }
     .section-one,
-    .section-two, footer .right {
+    .section-two {
       display: flex;
       justify-content: space-between;
       padding: 0 4rem;
@@ -121,6 +121,9 @@
     footer {
       text-align: left;
     }
+  }
+  @media screen and (max-width: 600px) {
+    footer .right {text-align: center;}
   }
 </style>
 <body>
